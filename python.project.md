@@ -1,6 +1,6 @@
 # MacOS env
 
-## install `pyaudio`
+## While installing `pyaudio` package
 ```
     src/_portaudiomodule.c:29:10: fatal error: 'portaudio.h' file not found
     #include "portaudio.h"
@@ -9,7 +9,7 @@
     error: command 'gcc' failed with exit status 1
 ```
 
-1. need to install `portaudio` binary vis brew
+1. install `portaudio` binary vis brew
 1. `brew install portaudio`, a guide is from http://people.csail.mit.edu/hubert/pyaudio/
 
 ## [Mac 解决brew一直卡在Updating Homebrew](https://www.jianshu.com/p/1bdc8940d697)
